@@ -1,0 +1,129 @@
+/*** Global *********************************************************************************/
+
+body {}
+
+
+/*** Navbar - Bootstrap  3 ******************************************************************/
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background: #febe1f;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #febe1f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: #FEBE1F;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #777;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #FEBE1F;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.nav>li>a {
+    position: relative;
+    display: flex;
+    padding: 10px 15px;
+    font-size: 156%;
+}
+
+.navbar-nav {
+    margin-top: 5px;
+}
+
+.navbar > .container-fluid {
+    margin-left: 98px !important;
+    margin-right: 28px !important;
+}
+
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default {
+    color: white;
+    background-color: #FEBE1F;
+    border-color: #adadad;
+}
+
+.dropdown-menu > li > a {
+    color: #777;
+}
+
+
+/*
+form {
+    width: 565px !important;
+    text-align: left;
+}
+*/
+
+.form-group {
+    margin-top: 2px;
+}
+
+..dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #FEBE1F;
+}
+
+.load_img {
+    height: auto;
+    width: 1.6vw;
+}
+
+
+/*** Body - Content *************************************************************************/
+
+.main_content {
+    margin-top: 5%;
+}
+
+
+/*** Footer - Content ***********************************************************************/
+
+footer > div > ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+footer > div > ul > li {
+    text-align: center;
+    text-decoration: none;
+    float: left
+}
+
+.footer_img {
+    height: auto;
+    width: 7%;
+}
