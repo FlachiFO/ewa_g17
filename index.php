@@ -39,7 +39,7 @@ if(isset($_SESSION['user_session_id'])!="")
                 <div class="navbar-collapse collapse" id="navbar-main">
                     <ul class="nav navbar-nav">
                         <li><a href="#home" data-ajax="false">Home</a> </li>
-                        <li><a href="#">Shop</a> </li>
+<!--                        <li><a href="#">Shop</a> </li>-->
                         <li><a href="#">Contact us</a> </li>
                     </ul>
                     <!--
