@@ -9,7 +9,7 @@
     $db_con = mysqli_connect($db_host, $db_user, $db_pass,$db_name);
 
     if (mysqli_stat ($db_con) === NULL)
-        die("Error: Keine Verbindung möglich!");        
-
+        die("Error: Keine Verbindung möglich!");
+    mysqli_set_charset($db_con, 'utf8');
 
 ?>
