@@ -36,14 +36,15 @@ $('document').ready(function()
 			beforeSend: function()
 			{	
 				$("#error").fadeOut();
-				$("#btn-login").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
+//				$("#btn-login").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
 			},
 			success :  function(response)
 			   {						
 					if(response=="ok"){
 									
 						$("#btn-login").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
-						setTimeout(' window.location.href = "./home.php"; ',4000);
+//						setTimeout(' window.location.href = "./home.php"; ',4000);
+                         window.location.href = "./home.php";
 					}
 					else{
 									
