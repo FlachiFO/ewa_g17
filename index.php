@@ -19,7 +19,7 @@ if(isset($_SESSION['user_session_id'])!="")
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EWA-Shop</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<!--    <link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
     <link href="css/style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
@@ -42,19 +42,6 @@ if(isset($_SESSION['user_session_id'])!="")
                         <li><a href="#home" data-ajax="false">Home</a> </li>
                         <li><a href="#">Shop</a> </li>
                         <li><a href="#">Contact us</a> </li>
-                        <!--
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a> </li>
-                                <li><a href="#">Another action</a> </li>
-                                <li><a href="#">Something else here</a> </li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a> </li>
-                                <li class="divider"></li>
-                                <li><a href="#">One more separated link</a> </li>
-                            </ul>
-                        </li>
--->
                     </ul>
                     <!--
                     <form class="navbar-form navbar-right search-form" role="search">
@@ -79,7 +66,19 @@ if(isset($_SESSION['user_session_id'])!="")
             </center>
         </div>
     </header>
-    <div> <?php phpinfo(); ?> </div>
+    <div id="main" class="container main_content well"> 
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <?php 
+                        for ($i = 0; $i < count($row2); $i++) {     
+                            echo '<div class="book_list col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">';
+                            echo '<img class="book_img_shop" src="'.$row2[$i]["LinkGrafikdatei"].'" >';
+                            echo '</div>';
+                        }
+                    ?>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <ul class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">

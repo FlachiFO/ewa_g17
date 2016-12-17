@@ -53,7 +53,7 @@ body {}
     position: relative;
     display: flex;
     padding: 10px 15px;
-    font-size: 156%;
+    font-size: 148%;
 }
 
 .navbar-nav {
@@ -92,7 +92,12 @@ form {
     margin-top: 2px;
 }
 
-..dropdown-menu>li>a:focus,
+#password,
+#user {
+    width: 13vw;
+}
+
+.dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
     background-color: #FEBE1F;
 }
@@ -106,7 +111,21 @@ form {
 /*** Body - Content *************************************************************************/
 
 .main_content {
-    margin-top: 5%;
+    margin-top: 12vh;
+}
+
+.book_list {
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.book_img_shop {
+    /*
+    height: 40vh;
+    width: 30vh;
+*/
+    height: 240px;
+    width: 165px;
 }
 
 
@@ -126,4 +145,14 @@ footer > div > ul > li {
 .footer_img {
     height: auto;
     width: 7%;
+}
+
+
+/*******************************************************************************************/
+
+@media (max-width: 767px) {
+    #password,
+    #user {
+        width: 100%;
+    }
 }
