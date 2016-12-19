@@ -80,14 +80,6 @@ body {}
     color: #777;
 }
 
-
-/*
-form {
-    width: 565px !important;
-    text-align: left;
-}
-*/
-
 .form-group {
     margin-top: 2px;
 }
@@ -108,7 +100,7 @@ form {
 }
 
 
-/*** Body - Content *************************************************************************/
+/*** Body - Content (Index) *****************************************************************/
 
 .main_content {
     margin-top: 12vh;
@@ -126,6 +118,30 @@ form {
 */
     height: 240px;
     width: 165px;
+}
+
+
+/*** Body - Content (Book) ******************************************************************/
+
+.book_site_img {
+    text-align: center;
+}
+
+.book_site_main > H2 {
+    padding-top: 9vh;
+    margin-left: 5vw;
+}
+
+.book_site_main > ul {
+    list-style: none;
+    padding-top: 6vh;
+    margin-left: 2vw;
+    font-size: 1.7vw;
+    float: left;
+}
+
+.book_site_text {
+    margin-top: 8vh;
 }
 
 

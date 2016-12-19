@@ -57,21 +57,18 @@ if(!isset($_SESSION['user_session_id']))
             </div>
         </header>
         <!------------------------------------------------------------------------------------------------------------------------------>
-        <div id="main" class="main_content well">
-            <table id="katalog" class="table">
-                <tr>
-                    <th>Buchtitel</th>
-                    <th>Autor</th>
-                </tr>
+        <div id="main" class="container main_content well"> 
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <?php 
-                for ($i = 0; $i < count($row2); $i++) {     
-                    echo '<tr>';
-                    echo '<td>' .$row2[$i]["Produkttitel"]. '</td>';
-                    echo '<td>' .$row2[$i]["Autorname"]. '</td>';
-                    echo '</tr>';
-                }
-            ?>
-            </table>
+                    for ($i = 0; $i < count($row2); $i++) {     
+                        echo '<div class="book_list col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">';
+                        echo '<a href="pages/book_site.php?index='.$row2[$i]["ProduktID"].'">';
+                        echo '<img class="book_img_shop" src="'.$row2[$i]["LinkGrafikdatei"].'" ></a>';
+                        echo '</div>';
+                    }
+                ?>
+            </div>
         </div>
         <!------------------------------------------------------------------------------------------------------------------------------>
         <!--
