@@ -33,7 +33,7 @@ $('document').ready(function () {
             }
             , success: function (response) {
                 if (response == "ok") {
-//                    $("#btn-login").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
+                    $("#btn-login").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
                     //						setTimeout(' window.location.href = "./home.php"; ',4000);
                     window.location.href = "./home.php";
                 }
@@ -64,11 +64,11 @@ $('document').ready(function () {
             }
             , user: "please enter your username"
         , }
-        , submitHandler: submitForm
+        , submitHandler: submitForm2
     });
     /* validation */
     /* login submit */
-    function submitForm() {
+    function submitForm2() {
         var data = $("#register-form").serialize();
         $.ajax({
             type: 'POST'
@@ -95,5 +95,4 @@ $('document').ready(function () {
         });
         return false;
     }
-    /* login submit */
 });

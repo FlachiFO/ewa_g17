@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EWA-Shop - Registrierung</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" <!---->>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -153,7 +153,7 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-6"> <a href="#" class="active" id="login-form-link">Login</a> </div>
-                                <div class="col-xs-6"> <a href="#" id="register-form-link">Register</a> </div>
+                                <div class="col-xs-6"> <a href="#" id="register-form-link">Registrieren</a> </div>
                             </div>
                             <hr> </div>
                         <div class="panel-body">
@@ -164,12 +164,6 @@
                                             <input type="text" class="form-control" placeholder="Username" name="user" id="user" tabindex="1"> </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control" placeholder="Password" name="password" id="password" tabindex="2"> </div>
-                                        <!--
-                                        <div class="form-group text-center">
-                                            <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-                                            <label for="remember"> Remember Me</label>
-                                        </div>
--->
                                         <div class="form-group">
                                             <div class="row">
                                                 <div class="col-sm-6 col-sm-offset-3">

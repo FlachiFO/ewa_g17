@@ -80,7 +80,7 @@ if(isset($_SESSION['user_session_id'])!="")
                             echo '<img class="book_img_shop" src="'.$row2[$i]["LinkGrafikdatei"].'" ></a>';
                             echo '</div>';
                         }
-                    ?>
+                ?>
             </div>
         </div>
     </div>

@@ -9,7 +9,8 @@
         $user_confirm_password = trim($_POST['confirm_password']);
         $address = trim($_POST['address']);
 	
-		$password = $user_password;
+		$password = md5($user_password);
+//		$password = $user_password;
         
         if($user_password == $user_confirm_password) {
         
