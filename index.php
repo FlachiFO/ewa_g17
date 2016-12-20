@@ -76,7 +76,7 @@ if(isset($_SESSION['user_session_id'])!="")
                     <?php 
                         for ($i = 0; $i < count($row2); $i++) {     
                             echo '<div class="book_list col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">';
-                            echo '<a href="pages/book_site.php?index='.$row2[$i]["ProduktID"].'">';
+                            echo '<a href="book_site.php?index='.$row2[$i]["ProduktID"].'">';
                             echo '<img class="book_img_shop" src="'.$row2[$i]["LinkGrafikdatei"].'" ></a>';
                             echo '</div>';
                         }

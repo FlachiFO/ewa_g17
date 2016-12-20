@@ -47,7 +47,7 @@ if(!isset($_SESSION['user_session_id']))
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> &nbsp;Hi
                                     <?php echo $_SESSION['user_session_name']; ?>&nbsp; <span class="caret"></span> </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="user_site.php"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
                                     <li><a href="./config/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
                                 </ul>
                             </li>
@@ -57,31 +57,32 @@ if(!isset($_SESSION['user_session_id']))
             </div>
         </header>
         <!------------------------------------------------------------------------------------------------------------------------------>
-        <div id="main" class="container main_content well"> 
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <?php 
-                    for ($i = 0; $i < count($row2); $i++) {     
-                        echo '<div class="book_list col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">';
-                        echo '<a href="book_site.php?index='.$row2[$i]["ProduktID"].'">';
-                        echo '<img class="book_img_shop" src="'.$row2[$i]["LinkGrafikdatei"].'" ></a>';
-                        echo '</div>';
-                    }
-                ?>
+        <div class="container main_content well">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" >
+                <img src="./img/dummy_avatar.png" class="img-circle">
             </div>
-        </div>
-        <!------------------------------------------------------------------------------------------------------------------------------>
-        <!--
-    <footer>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <ul class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
-                <li><a href="./config/regist.php">REGISTRIENEN</a></li>
-                <li><a href="www.htw-dresden.de"><img class="footer_img" src="img/HTW%20Ohne.png"></a></li>
-            </ul>
-            <p class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">&copy; 2016 Flache und Bruntsch<p>
-        </div>
-    </footer>
--->
-    </body>
 
-    </html>
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+            <?php
+                echo '<h3>'.$_SESSION['user_session_anrede'].' '.$_SESSION['user_session_name'].'</h3>';
+                echo '<h6>Addresse:'.$_SESSION['user_session_address'].'</h6>';
+            ?>
+            </div>
+            
+            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <div class="btn-group">
+                    <a class="btn dropdown-toggle btn-info" data-toggle="dropdown" href="#">
+                        Action 
+                        <span class="icon-cog icon-white"></span><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="icon-wrench"></span> Passwort ändern</a></li>
+                        <li><a href="#"><span class="icon-trash"></span> Delete</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+        <!------------------------------------------------------------------------------------------------------------------------------>
+</body>
+</html>
