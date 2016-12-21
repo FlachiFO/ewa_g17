@@ -19,13 +19,14 @@ if(!isset($_SESSION['user_session_id']))
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>EWA-Shop</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/sweetalert.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <!--    <script src="js/function.js"></script>-->
+        <script src="js/sweetalert.js"></script>
+        <script src="js/function.js"></script>
     </head>
-
     <body>
         <!------------------------------------------------------------------------------------------------------------------------------>
         <header class="navbar navbar-default navbar-fixed-top">
@@ -36,7 +37,7 @@ if(!isset($_SESSION['user_session_id']))
                 <center>
                     <div class="navbar-collapse collapse" id="navbar-main">
                         <ul class="nav navbar-nav">
-                            <li><a href="#home" data-ajax="false">Home</a> </li>
+                            <li><a href=".." data-ajax="false">Home</a> </li>
                             <!--                        <li><a href="#">Shop</a> </li>-->
                             <li><a href="#">Contact us</a> </li>
                         </ul>
@@ -59,8 +60,8 @@ if(!isset($_SESSION['user_session_id']))
         <!------------------------------------------------------------------------------------------------------------------------------>
         <div class="container main_content well">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" >
-                <img src="./img/dummy_avatar.png" class="img-circle">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 user_site_img" >
+                <img src="./img/profilbild.jpg" class="img-circle">
             </div>
 
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xl-5">
@@ -77,8 +78,8 @@ if(!isset($_SESSION['user_session_id']))
                         <span class="icon-cog icon-white"></span><span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><span class="icon-wrench"></span> Passwort ändern</a></li>
-                        <li><a href="#"><span class="icon-trash"></span> Delete</a></li>
+                        <li><a href="#"><span id="del_user" class="icon-wrench"></span> Passwort ändern</a></li>
+                        <li><a class="del_user" href="#"><span class="icon-trash"></span> Delete</a></li>
                     </ul>
                 </div>
             </div>

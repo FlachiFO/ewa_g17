@@ -8,13 +8,14 @@
 		$user_password = trim($_POST['password']);
         $user_confirm_password = trim($_POST['confirm_password']);
         $address = trim($_POST['address']);
+        $anrede = trim($_POST['anrede']);
 	
 		$password = md5($user_password);
 //		$password = $user_password;
         
         if($user_password == $user_confirm_password) {
         
-            if($user == "" OR $user_password == "" OR $user_confirm_password == "" OR $address == "")
+            if($user == "" OR $user_password == "" OR $user_confirm_password == "" OR $address == "" OR $anrede == "")
             {
                 echo "Eingabefehler. Bitte alle Felder ausfüllen!";
                 exit;
@@ -27,11 +28,11 @@
                 echo 'Benutzername schon vorhanden!';  
             } 
             else {
-                $regist = "INSERT INTO user (Username, Userpwmd5, UserAdresse) VALUES ('$user', '$password', '$address')";
+                $regist = "INSERT INTO user (Username, Userpwmd5, UserAnrede, UserAdresse) VALUES ('$user', '$password', '$anrede', '$address')";
                 $eintragen = mysqli_query($db_con,$regist);
                 if($eintragen == true)
                     {
-                       $sql="SELECT UserID, Username FROM user WHERE Username='$user' AND Userpwmd5='$password'";
+                        $sql="SELECT UserID, Username, UserAnrede, Useradresse FROM user WHERE Username='$user' AND Userpwmd5='$password'";
                         $result = mysqli_query($db_con,$sql);
 
                         $row = mysqli_fetch_row($result);
@@ -43,6 +44,8 @@
                             //session_register($username);
                             $_SESSION['user_session_id']=$row[0];
                             $_SESSION['user_session_name']=$row[1];
+                            $_SESSION['user_session_anrede']=$row[2];
+                            $_SESSION['user_session_address']=$row[3];
                             echo "ok"; // log in
 
                         }

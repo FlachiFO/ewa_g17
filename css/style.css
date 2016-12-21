@@ -145,6 +145,18 @@ body {}
 }
 
 
+/*** Body - Content (User) ******************************************************************/
+
+.user_site_img {
+    text-align: center;
+}
+
+.user_site_img > img {
+    height: auto;
+    width: 171px;
+}
+
+
 /*** Footer - Content ***********************************************************************/
 
 footer > div > ul {

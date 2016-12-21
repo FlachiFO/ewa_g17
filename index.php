@@ -47,25 +47,9 @@ if(isset($_SESSION['user_session_id'])!="")
 				        <input type="text" class="form-control" placeholder="Search" />
                     </form>
 -->
-<!--                    <button class="navbar-right btn btn-default"><a href="login_regist_site.php">Account</a></button>-->
                     <form class="navbar-form navbar-right form-sigin" action="login_regist_site.php">
                         <button class="btn btn-default" type="submit" value="Login / Registrierung">Login / Registrierung</button>
                     </form>
-<!--
-                    <form class="navbar-form navbar-right form-sigin" role="search" method="post" id="login-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Username" name="user" id="user" /> 
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
-                        </div>
-                        <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
-                            <span class="glyphicon glyphicon-log-in"></span>
-                            &nbsp; Sign In
-                        </button>
-                        <div id="error"></div>
-                    </form>
--->
                 </div>
             </center>
         </div>

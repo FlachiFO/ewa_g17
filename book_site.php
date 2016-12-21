@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-include_once '../config/db_config.php';
-include_once '../config/sql_query.php';
+include_once './config/db_config.php';
+include_once './config/sql_query.php';
 $book = $_GET["index"];
 
 ?>
@@ -73,8 +73,8 @@ $book = $_GET["index"];
             <ul>
                 <li><b>Autorname: </b><?php echo $row2[$i]["Autorname"]; ?></li>
                 <li><b>Verlagsname: </b><?php echo $row2[$i]["Verlagsname"]; ?></li>
-                <li>VerlagsID: <?php echo $row2[$i]["VerlagsID"]; ?></li>
-                <li>Preis: <?php echo $row2[$i]["PreisBrutto"]; ?></li>
+                <li>ISBN-Nr.: <?php echo $row2[$i]["VerlagsID"]; ?></li>
+                <li>Preis: <?php echo $row2[$i]["PreisBrutto"]; ?>€</li>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 book_site_text">

@@ -182,13 +182,15 @@
                                     </form>
                                     <form id="register-form" action="" method="post" role="form" style="display: none;">
                                         <div class="form-group">
-                                            <input type="text" name="user" id="user" tabindex="1" class="form-control" placeholder="Username" value=""> </div>
+                                            <input type="text" name="anrede" id="anrede" tabindex="1" class="form-control" placeholder="Anrede" value=""> </div>
                                         <div class="form-group">
-                                            <input type="text" name="address" id="address" tabindex="1" class="form-control" placeholder="Addresse" value=""> </div>
+                                            <input type="text" name="user" id="user" tabindex="1" class="form-control" placeholder="Username" value=""> </div>
                                         <div class="form-group">
                                             <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password"> </div>
                                         <div class="form-group">
                                             <input type="password" name="confirm_password" id="confirm_password" tabindex="2" class="form-control" placeholder="Confirm Password"> </div>
+                                        <div class="form-group">
+                                            <input type="text" name="address" id="address" tabindex="3" class="form-control" placeholder="Addresse" value=""> </div>
                                         <div class="form-group">
                                             <div class="row">
                                                 <div class="col-sm-6 col-sm-offset-3">

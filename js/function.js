@@ -40,7 +40,7 @@ $('document').ready(function () {
                 else {
                     $("#error").fadeIn(1000, function () {
                         $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; ' + response + ' !</div>');
-//                        $("#btn-login").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In');
+                        //                        $("#btn-login").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In');
                     });
                 }
             }
@@ -80,19 +80,36 @@ $('document').ready(function () {
             }
             , success: function (response) {
                 if (response == "ok") {
-//                    $("#btn-regist").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
+                    //                    $("#btn-regist").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
                     $("#error2").html('<div class="alert alert-success"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Registrierung erfolgreich!</div>');
-                    setTimeout(' window.location.href = "./home.php"; ',4000);
-//                    window.location.href = "./home.php";
+                    setTimeout(' window.location.href = "./home.php"; ', 4000);
+                    //                    window.location.href = "./home.php";
                 }
                 else {
                     $("#error2").fadeIn(1000, function () {
                         $("#error2").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; ' + response + ' !</div>');
-//                        $("#btn-regist").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In');
+                        //                        $("#btn-regist").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In');
                     });
                 }
             }
         });
         return false;
     }
+    $(".del_user").click(function () {
+        swal({
+            title: "Sind Sie Sicher?"
+            , text: "Benutzer wird dauerhaft gelöscht!"
+            , type: "warning"
+            , showCancelButton: true
+            , confirmButtonClass: "btn-danger"
+            , confirmButtonText: "Ja, löschen"
+            , closeOnConfirm: false
+        }, function () {
+            swal("gelöscht!", "Sie werden nun auf die Startseite weitergeleitet.", "success");
+            setTimeout('$.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});', 2500);
+        });
+    });
+//    $(".confirm").click(function() {
+//        $.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});
+//    });
 });
