@@ -106,10 +106,44 @@ $('document').ready(function () {
             , closeOnConfirm: false
         }, function () {
             swal("gelöscht!", "Sie werden nun auf die Startseite weitergeleitet.", "success");
-            setTimeout('$.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});', 2500);
+//            setTimeout('$.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});', 2500);
         });
     });
-//    $(".confirm").click(function() {
+//    $(".del_user").click(function() {
 //        $.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});
 //    });
+    
+    
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

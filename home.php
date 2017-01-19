@@ -24,9 +24,14 @@ if(!isset($_SESSION['user_session_id']))
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <!--    <script src="js/function.js"></script>-->
+<!--        <script src="js/angular.min.js"></script>-->
     </head>
+    <script>
+           var sql = <?php echo json_encode($row2); ?>; 
+    </script>
+        <script src="js/book_search.js"></script>
 
-    <body>
+    <body ng-app="myApp">
         <!------------------------------------------------------------------------------------------------------------------------------>
         <header class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -40,8 +45,15 @@ if(!isset($_SESSION['user_session_id']))
                             <!--                        <li><a href="#">Shop</a> </li>-->
                             <li><a href="#">Contact us</a> </li>
                         </ul>
-                        <form class="navbar-form navbar-left search-form" role="search">
-                            <input type="text" class="form-control" placeholder="Search" /> </form>
+<!--
+                        <form id="search" class="navbar-form navbar-left search-form" role="search">
+                            <input type="text" name="book_search" class="book_search form-control" placeholder="Search" /> </form>
+-->
+                        <div>
+                            <select data-live-search="true" class="selectpicker" ng-model="id" ng-change="changeMetpoint(id)">
+                                <option class="small-font" ng-repeat="member in metpoint track by $index" data-select-watcher data-last="{{ '{{$last}}' }}" value="{{ '{{member.id}}' }}">{{ '{{member.name}}' }}</option>
+                            </select>
+                        </div>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> &nbsp;Hi
@@ -57,10 +69,10 @@ if(!isset($_SESSION['user_session_id']))
             </div>
         </header>
         <!------------------------------------------------------------------------------------------------------------------------------>
-        <div id="main" class="container main_content well"> 
+        <div id="main" class="container main_content well">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <?php 
+                    <?php 
                     for ($i = 0; $i < count($row2); $i++) {     
                         echo '<div class="book_list col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">';
                         echo '<a href="book_site.php?index='.$row2[$i]["ProduktID"].'">';
@@ -68,10 +80,10 @@ if(!isset($_SESSION['user_session_id']))
                         echo '</div>';
                     }
                 ?>
+                </div>
             </div>
-        </div>
-        <!------------------------------------------------------------------------------------------------------------------------------>
-        <!--
+            <!------------------------------------------------------------------------------------------------------------------------------>
+            <!--
     <footer>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <ul class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
