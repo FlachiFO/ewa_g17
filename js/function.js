@@ -25,7 +25,7 @@ $('document').ready(function () {
         var data = $("#login-form").serialize();
         $.ajax({
             type: 'POST'
-            , url: './config/login_process.php'
+            , url: './conf/login_process.php'
             , data: data
             , beforeSend: function () {
                 $("#error").fadeOut();
@@ -72,7 +72,7 @@ $('document').ready(function () {
         var data = $("#register-form").serialize();
         $.ajax({
             type: 'POST'
-            , url: './config/regist_process.php'
+            , url: './conf/regist_process.php'
             , data: data
             , beforeSend: function () {
                 $("#error").fadeOut();

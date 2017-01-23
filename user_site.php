@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once './config/db_config.php';
-include_once './config/sql_query.php';
+include_once './conf/db_config.php';
+include_once './conf/sql_query.php';
 if(!isset($_SESSION['user_session_id']))
 {
 	header("Location: index.php");
@@ -49,7 +49,7 @@ if(!isset($_SESSION['user_session_id']))
                                     <?php echo $_SESSION['user_session_name']; ?>&nbsp; <span class="caret"></span> </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
-                                    <li><a href="./config/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+                                    <li><a href="./conf/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>

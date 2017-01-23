@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgeschützter Bereich"
+AuthUserFile C:\xampp14\htdocs\ewa\G08\conf\.htpasswd
+require valid-user

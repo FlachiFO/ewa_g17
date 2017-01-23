@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-include_once './config/db_config.php';
-include_once './config/sql_query.php';
+include_once './conf/db_config.php';
+include_once './conf/sql_query.php';
 if(isset($_SESSION['user_session_id'])!="")
 {
 	header("Location: home.php");

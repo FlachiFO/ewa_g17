@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once './config/db_config.php';
-include_once './config/sql_query.php';
+include_once './conf/db_config.php';
+include_once './conf/sql_query.php';
 if(!isset($_SESSION['user_session_id']))
 {
 	header("Location: index.php");
@@ -49,18 +49,20 @@ if(!isset($_SESSION['user_session_id']))
                         <form id="search" class="navbar-form navbar-left search-form" role="search">
                             <input type="text" name="book_search" class="book_search form-control" placeholder="Search" /> </form>
 -->
+<!--
                         <div>
                             <select data-live-search="true" class="selectpicker" ng-model="id" ng-change="changeMetpoint(id)">
                                 <option class="small-font" ng-repeat="member in metpoint track by $index" data-select-watcher data-last="{{ '{{$last}}' }}" value="{{ '{{member.id}}' }}">{{ '{{member.name}}' }}</option>
                             </select>
                         </div>
+-->
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> &nbsp;Hi
                                     <?php echo $_SESSION['user_session_name']; ?>&nbsp; <span class="caret"></span> </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="user_site.php"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
-                                    <li><a href="./config/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+                                    <li><a href="./conf/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>
