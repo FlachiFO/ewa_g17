@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once './conf/db_config.php';
-include_once './conf/sql_query.php';
+include_once './admin/db_config.php';
+include_once './admin/sql_query.php';
 if(!isset($_SESSION['user_session_id']))
 {
 	header("Location: index.php");
@@ -37,19 +37,21 @@ if(!isset($_SESSION['user_session_id']))
                 <center>
                     <div class="navbar-collapse collapse" id="navbar-main">
                         <ul class="nav navbar-nav">
-                            <li><a href=".." data-ajax="false">Home</a> </li>
+                            <li><a href="." data-ajax="false">Home</a> </li>
                             <!--                        <li><a href="#">Shop</a> </li>-->
                             <li><a href="#">Contact us</a> </li>
                         </ul>
+<!--
                         <form class="navbar-form navbar-left search-form" role="search">
                             <input type="text" class="form-control" placeholder="Search" /> </form>
+-->
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> &nbsp;Hi
                                     <?php echo $_SESSION['user_session_name']; ?>&nbsp; <span class="caret"></span> </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
-                                    <li><a href="./conf/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+                                    <li><a href="./admin/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -79,7 +81,8 @@ if(!isset($_SESSION['user_session_id']))
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><span id="del_user" class="icon-wrench"></span> Passwort ändern</a></li>
-                        <li><a class="del_user" href="#"><span class="icon-trash"></span> Delete</a></li>
+<!--                        <li><a class="del_user" href="#"><span class="icon-trash"></span> Delete</a></li>-->
+                        <li><a href="javascript:del_user_alert()"><span class="icon-trash"></span> Delete</a></li>
                     </ul>
                 </div>
             </div>

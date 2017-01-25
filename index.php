@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-include_once './conf/db_config.php';
-include_once './conf/sql_query.php';
+include_once './admin/db_config.php';
+include_once './admin/sql_query.php';
 if(isset($_SESSION['user_session_id'])!="")
 {
 	header("Location: home.php");
@@ -18,7 +18,7 @@ if(isset($_SESSION['user_session_id'])!="")
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>EWA-Shop</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

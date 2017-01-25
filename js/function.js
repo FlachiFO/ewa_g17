@@ -25,7 +25,7 @@ $('document').ready(function () {
         var data = $("#login-form").serialize();
         $.ajax({
             type: 'POST'
-            , url: './conf/login_process.php'
+            , url: './admin/login_process.php'
             , data: data
             , beforeSend: function () {
                 $("#error").fadeOut();
@@ -72,7 +72,7 @@ $('document').ready(function () {
         var data = $("#register-form").serialize();
         $.ajax({
             type: 'POST'
-            , url: './conf/regist_process.php'
+            , url: './admin/regist_process.php'
             , data: data
             , beforeSend: function () {
                 $("#error").fadeOut();
@@ -95,27 +95,17 @@ $('document').ready(function () {
         });
         return false;
     }
-    $(".del_user").click(function () {
-        swal({
-            title: "Sind Sie Sicher?"
-            , text: "Benutzer wird dauerhaft gelöscht!"
-            , type: "warning"
-            , showCancelButton: true
-            , confirmButtonClass: "btn-danger"
-            , confirmButtonText: "Ja, löschen"
-            , closeOnConfirm: false
-        }, function () {
-            swal("gelöscht!", "Sie werden nun auf die Startseite weitergeleitet.", "success");
-//            setTimeout('$.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});', 2500);
-        });
-    });
-//    $(".del_user").click(function() {
-//        $.ajax({url: "./config/delete_user.php"}).done(function () {window.location.href = "./home.php";});
-//    });
     
     
 });
 
+function del_user_alert() {
+    confirm('User entfernen');
+    del_user();
+};
+function del_user() {
+    $.ajax({url: "./admin/delete_user.php"}).done(function () {window.location.href = "./home.php";});
+};
 
 
 
