@@ -22,7 +22,9 @@ if(isset($_SESSION['user_session_id'])!="")
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <script src="https://github.com/silviomoreto/bootstrap-select.git"></script>
+<!--        <script src="https://github.com/silviomoreto/bootstrap-select.git"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
         <script src="js/ewa_angular.js"></script>
         <!--    <script src="js/function.js"></script>-->
         <script type="text/javascript">
@@ -46,13 +48,10 @@ if(isset($_SESSION['user_session_id'])!="")
                         </ul>
                         <select data-live-search="true" class="selectpicker" ng-model="id" ng-change="">
                             <option value="">Bitte wählen Sie ein Buch</option>
-                            <option class="small-font" ng- ng-repeat="line in firstLines" data-select-watcher data-last="{{ '{{$last}}' }}" value="{{ '{{line.lineId}}' }}">{{ '{{line.name}}' }}</option>
+<!--                            <option class="small-font" ng- ng-repeat="line in firstLines" data-select-watcher data-last="{{ '{{$last}}' }}" value="{{ '{{}}' }}">{{ '{{}}' }}</option>-->
                         </select>
-                        <select class="selectpicker" data-live-search="true">
-                            <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
-                            <option data-tokens="mustard">Burger, Shake and a Smile</option>
-                            <option data-tokens="frosting">Sugar, Spice and all things nice</option>
-                        </select>
+                        <button ng-click="search()">test</button>
+
 
                         <!--
                     <form class="navbar-form navbar-right search-form" role="search">
@@ -80,7 +79,7 @@ if(isset($_SESSION['user_session_id'])!="")
                 </div>
             </div>
         </div>
-        <footer style="background: #aaa;color:white;position: absolute;  right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center;">Benjamin Flache & Paul Bruntsch</footer>
+        <footer style="background: #aaa;color:white;position: fixed;  right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center;">Benjamin Flache & Paul Bruntsch</footer>
 
     </body>
 
