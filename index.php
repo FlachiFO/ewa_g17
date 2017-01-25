@@ -22,6 +22,8 @@ if(isset($_SESSION['user_session_id'])!="")
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script src="https://github.com/silviomoreto/bootstrap-select.git"></script>
+        <script src="js/ewa_angular.js"></script>
         <!--    <script src="js/function.js"></script>-->
         <script type="text/javascript">
             var sql = <?php echo json_encode($row2); ?>;
@@ -29,7 +31,7 @@ if(isset($_SESSION['user_session_id'])!="")
         </script>
     </head>
 
-    <body>
+    <body ng-controller="myController" ng-app="myApp">
         <header class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -42,6 +44,16 @@ if(isset($_SESSION['user_session_id'])!="")
                             <!--                        <li><a href="#">Shop</a> </li>-->
                             <li><a href="#">Contact us</a> </li>
                         </ul>
+                        <select data-live-search="true" class="selectpicker" ng-model="id" ng-change="">
+                            <option value="">Bitte wählen Sie ein Buch</option>
+                            <option class="small-font" ng- ng-repeat="line in firstLines" data-select-watcher data-last="{{ '{{$last}}' }}" value="{{ '{{line.lineId}}' }}">{{ '{{line.name}}' }}</option>
+                        </select>
+                        <select class="selectpicker" data-live-search="true">
+                            <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                            <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                            <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+                        </select>
+
                         <!--
                     <form class="navbar-form navbar-right search-form" role="search">
 				        <input type="text" class="form-control" placeholder="Search" />
@@ -68,15 +80,8 @@ if(isset($_SESSION['user_session_id'])!="")
                 </div>
             </div>
         </div>
-        <footer>
-            <!--
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <ul class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
-                <li><a href="./pages/regist_site.php">REGISTRIENEN</a></li>
-            </ul>
-        </div>
-    </footer>
--->
+        <footer style="background: #aaa;color:white;position: absolute;  right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center;">Benjamin Flache & Paul Bruntsch</footer>
+
     </body>
 
     </html>
