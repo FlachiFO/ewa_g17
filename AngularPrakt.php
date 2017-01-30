@@ -1,4 +1,4 @@
-<div style="left: 30%;position: absolute;width: 40%">
+<div style="left: 30%;position: relative;width: 40%">
 <header class="w3-container w3-light-grey w3-padding-16">
     <h3>ToDo-list</h3>
 </header>

@@ -70,7 +70,7 @@ include_once './admin/sql_query.php';
                 <div class="navbar-collapse collapse" id="navbar-main">
                     <ul class="nav navbar-nav">
                         <li><a href="#" ng-click="switchTo('start')">Home</a> </li>
-                        <li><a href="/ewa/AngularPrakt.html">Contact us</a> </li>
+                        <li><a href="#" ng-click="switchTo('contactUs')">Contact us</a> </li>
                         <?php if(isset($_SESSION['user_session_id'])!=""){ ?>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<span class="caret"></span></a>
@@ -137,12 +137,13 @@ include_once './admin/sql_query.php';
         <angular ng-switch-when="1"></angular>
         <book-site ng-switch-when="2"></book-site>
         <shoping-cart ng-switch-when="3"></shoping-cart>
+        <contact-us ng-switch-when="4"></contact-us>
 
     </div>
     </body>
 
 <!--    </body>-->
-        <footer style="background: #aaa;color:white; right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center;">Benjamin Flache & Paul Bruntsch</footer>
+        <footer style="background: #aaa;color:white; right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center; position: absolute">Benjamin Flache & Paul Bruntsch</footer>
 <!--    </section>-->
 
 

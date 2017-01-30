@@ -33,7 +33,7 @@ session_start();
             </button>
         </td>
         <td ng-bind="item.Cost + '€'" class="input-mini"></td>
-        <td ng-bind="item.Total + '€'"></td>
+        <td ng-bind="(item.Total | setDecimal:2) + '€'"></td>
         <td>[<a href ng-click="removeItem($index)">X</a>]</td>
     </tr>
     <tr>
@@ -42,7 +42,7 @@ session_start();
         <td></td>
         <td></td>
         <td></td>
-        <td ng-bind="SCCTotal + '€'" class="input-mini"></td>
+        <td ng-bind="(SCCTotal | setDecimal:2) + '€'" class="input-mini"></td>
         <td>
             <button ng-hide="emptySC" class="btn btn-primary btn-s" data-toggle="modal" data-target="#invoice" ng-click="finalSC()">Jetzt bestellen</button>
         </td>
