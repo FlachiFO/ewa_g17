@@ -41,6 +41,14 @@ myApp.directive('shopingCart', function () {
     };
 });
 
+myApp.directive('contactUs', function () {
+    return {
+        restrict: 'E',
+        scope: true,
+        templateUrl: 'contactUs.php'
+    };
+});
+
 myApp.controller('myController',function($scope, $timeout, $http, $localStorage) {
 
     // variablen initialisierung
@@ -63,11 +71,6 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
 
     $scope.toDoList =
         [{id: 0,title:"Aufräumen",details:"Küche",checked: false},{id: 1,title:"Gassi gehen",details:"Hund",checked: false},{id: 2,title:'Werkstatt', details:'Polo 6N',checked: false}];
-
-
-
-
-
 
     // index Funktionen
 
@@ -101,6 +104,14 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
                 $scope.angular = !$scope.shopingCart;
                 $scope.bookSite = !$scope.shopingCart;
                 break;
+            case 'contactUs':
+                $scope.presentMode = '4';
+                $scope.contactUs = true;
+                $scope.start = !$scope.contactUs;
+                $scope.angular = !$scope.contactUs;
+                $scope.bookSite = !$scope.contactUs;
+                $scope.shopingCart = !$scope.contactUs;
+                break;
             default:
         }
     };
@@ -124,7 +135,6 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
             $scope.resultSearch = data;
         });
     };
-
 
     // Angular App
 
@@ -220,6 +230,7 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
             Total: kosten
         };
         $scope.shopingCartContent.push($scope.SCContent);
+        $scope.anzahlBuch = 1;
 };
 
     // SC Funktionen
@@ -258,8 +269,6 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
         $scope.loadedSC = $localStorage.cookieSC;
     };
 
-
-
     // IV Funktionen
 
     $scope.invoice = function(){
@@ -279,7 +288,7 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
             $scope.SOAresult = data;
         });
         //
-        $scope.shopingCartContent = null;
+        $scope.shopingCartContent = [];
         $scope.finalSCContent = null;
         $localStorage.cookieSC = null;
     };
@@ -347,6 +356,17 @@ myApp.directive('showMore', function() {
                 $showLess.triggerHandler('click');
             });
         },
+    };
+});
+
+myApp.filter('setDecimal', function ($filter) {
+    return function (input, places) {
+        if (isNaN(input)) return input;
+        // If we want 1 decimal place, we want to mult/div by 10
+        // If we want 2 decimal places, we want to mult/div by 100, etc
+        // So use the following to create that factor
+        var factor = "1" + Array(+(places > 0 && places + 1)).join("0");
+        return Math.round(input * factor) / factor;
     };
 });
 

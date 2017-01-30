@@ -18,36 +18,48 @@
       <file leaf-file-name="ewa_angular.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ewa_angular.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="272" column="13" lean-forward="true" selection-start-line="272" selection-start-column="13" selection-end-line="272" selection-end-column="13" />
+            <state relative-caret-position="343">
+              <caret line="361" column="46" lean-forward="false" selection-start-line="361" selection-start-column="46" selection-end-line="361" selection-end-column="46" />
               <folding>
                 <element signature="e#194#301#0" expanded="false" />
                 <element signature="e#342#442#0" expanded="false" />
                 <element signature="e#486#590#0" expanded="false" />
-                <element signature="e#637#743#0" expanded="false" />
-                <element signature="e#2013#3232#0" expanded="false" />
-                <element signature="e#3268#3402#0" expanded="false" />
-                <element signature="e#3437#3563#0" expanded="false" />
-                <element signature="e#3512#3555#0" expanded="false" />
-                <element signature="e#3602#3796#0" expanded="false" />
-                <element signature="e#3866#4098#0" expanded="false" />
-                <element signature="e#3897#4002#0" expanded="false" />
-                <element signature="e#4325#4401#0" expanded="false" />
-                <element signature="e#4447#4628#0" expanded="false" />
-                <element signature="e#4664#4699#0" expanded="false" />
-                <element signature="e#4747#5096#0" expanded="false" />
-                <element signature="e#5168#5286#0" expanded="false" />
-                <element signature="e#5336#5456#0" expanded="false" />
-                <element signature="e#5498#5733#0" expanded="false" />
-                <element signature="e#5773#6342#0" expanded="false" />
-                <element signature="e#6403#6793#0" expanded="false" />
-                <element signature="e#6836#6926#0" expanded="false" />
-                <element signature="e#6960#7083#0" expanded="false" />
-                <element signature="e#7116#7124#0" expanded="false" />
-                <element signature="e#7157#7214#0" expanded="false" />
-                <element signature="e#8277#8356#0" expanded="false" />
-                <element signature="e#8402#10297#0" expanded="false" />
+                <element signature="e#788#892#0" expanded="false" />
+                <element signature="e#3759#3893#0" expanded="false" />
+                <element signature="e#3928#4054#0" expanded="false" />
+                <element signature="e#4003#4046#0" expanded="false" />
+                <element signature="e#4093#4287#0" expanded="false" />
+                <element signature="e#4356#4588#0" expanded="false" />
+                <element signature="e#4387#4492#0" expanded="false" />
+                <element signature="e#4619#4775#0" expanded="false" />
+                <element signature="e#4815#4891#0" expanded="false" />
+                <element signature="e#4937#5118#0" expanded="false" />
+                <element signature="e#5154#5189#0" expanded="false" />
+                <element signature="e#5237#5586#0" expanded="false" />
+                <element signature="e#5658#5776#0" expanded="false" />
+                <element signature="e#5826#5946#0" expanded="false" />
+                <element signature="e#5988#6223#0" expanded="false" />
+                <element signature="e#6924#7314#0" expanded="false" />
+                <element signature="e#7357#7447#0" expanded="false" />
+                <element signature="e#7481#7604#0" expanded="false" />
+                <element signature="e#7637#7645#0" expanded="false" />
+                <element signature="e#7678#7735#0" expanded="false" />
+                <element signature="e#7791#8472#0" expanded="false" />
+                <element signature="e#8510#8745#0" expanded="false" />
+                <element signature="e#8794#8873#0" expanded="false" />
+                <element signature="e#8919#10814#0" expanded="false" />
+                <element signature="e#10864#11268#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AngularPrakt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularPrakt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopingCart.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shopingCart.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopingCart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -87,26 +99,29 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="144" column="52" lean-forward="false" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="69" />
               <folding>
-                <marker date="1485780372620" expanded="true" signature="6565:7141" ph="..." />
-                <marker date="1485780372620" expanded="true" signature="6774:7130" ph="..." />
-                <marker date="1485780372620" expanded="true" signature="6791:7115" ph="..." />
-                <marker date="1485780372620" expanded="true" signature="6862:7063" ph="..." />
-                <marker date="1485780372620" expanded="true" signature="6952:7041" ph="..." />
-                <marker date="1485780372620" expanded="true" signature="7176:7386" ph="..." />
+                <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1485806125941" expanded="true" signature="6577:7153" ph="..." />
+                <marker date="1485806125941" expanded="true" signature="6786:7142" ph="..." />
+                <marker date="1485806125941" expanded="true" signature="6803:7127" ph="..." />
+                <marker date="1485806125941" expanded="true" signature="6874:7075" ph="..." />
+                <marker date="1485806125941" expanded="true" signature="6964:7053" ph="..." />
+                <marker date="1485806125941" expanded="true" signature="7188:7451" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.php">
+      <file leaf-file-name="contactUs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactUs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="73" lean-forward="true" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,21 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_regist_site.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_regist_site.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
-              <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql_query_search_live.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sql_query_search_live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/sql_query_search_live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <marker date="1485515916209" expanded="true" signature="300:340" ph="SELECT * FRO... buecher" />
                 <marker date="1485515916209" expanded="true" signature="300:345" ph="SELECT * FRO... buecher" />
@@ -151,8 +156,8 @@
       <file leaf-file-name="book_site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="36" column="101" lean-forward="false" selection-start-line="36" selection-start-column="101" selection-end-line="36" selection-end-column="101" />
+            <state relative-caret-position="223">
+              <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -181,6 +186,7 @@
       <find>= null</find>
       <find>fina</find>
       <find>json</find>
+      <find>scct</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\ewa</dir>
@@ -220,14 +226,15 @@
         <option value="$PROJECT_DIR$/admin/regist_process.php" />
         <option value="$PROJECT_DIR$/admin/login_process.php" />
         <option value="$PROJECT_DIR$/js/creditcardcheck.js" />
-        <option value="$PROJECT_DIR$/AngularPrakt.php" />
         <option value="$PROJECT_DIR$/book_site.php" />
         <option value="$PROJECT_DIR$/start.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/shopingCart.php" />
         <option value="$PROJECT_DIR$/getBLZ.php" />
-        <option value="$PROJECT_DIR$/js/ewa_angular.js" />
         <option value="$PROJECT_DIR$/soa_client.php" />
+        <option value="$PROJECT_DIR$/AngularPrakt.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/contactUs.php" />
+        <option value="$PROJECT_DIR$/js/ewa_angular.js" />
+        <option value="$PROJECT_DIR$/shopingCart.php" />
       </list>
     </option>
   </component>
@@ -379,12 +386,12 @@
       <workItem from="1485329722458" duration="16262000" />
       <workItem from="1485513093406" duration="4335000" />
       <workItem from="1485528303780" duration="94000" />
-      <workItem from="1485528421939" duration="92688000" />
+      <workItem from="1485528421939" duration="98567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113379000" />
+    <option name="totallyTimeSpent" value="119258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -418,24 +425,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/sql_query_search_live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <marker date="1485515916209" expanded="true" signature="300:340" ph="SELECT * FRO... buecher" />
-            <marker date="1485515916209" expanded="true" signature="300:345" ph="SELECT * FRO... buecher" />
-            <marker date="1485515916209" expanded="true" signature="300:346" ph="SELECT * FRO... buecher" />
-            <marker date="1485515916209" expanded="true" signature="300:356" ph="SELECT * FRO... buecher" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sql_query.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -451,12 +445,13 @@
         <state relative-caret-position="697">
           <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
           <folding>
-            <marker date="1485780372620" expanded="true" signature="6565:7141" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6774:7130" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6791:7115" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6862:7063" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6952:7041" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="7176:7386" ph="..." />
+            <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1485806125941" expanded="true" signature="6577:7153" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6786:7142" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6803:7127" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6874:7075" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6964:7053" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="7188:7451" ph="..." />
           </folding>
         </state>
       </provider>
@@ -493,29 +488,31 @@
             <element signature="e#194#301#0" expanded="false" />
             <element signature="e#342#442#0" expanded="false" />
             <element signature="e#486#590#0" expanded="false" />
-            <element signature="e#637#743#0" expanded="false" />
-            <element signature="e#2013#3232#0" expanded="false" />
-            <element signature="e#3268#3402#0" expanded="false" />
-            <element signature="e#3437#3563#0" expanded="false" />
-            <element signature="e#3512#3555#0" expanded="false" />
-            <element signature="e#3602#3796#0" expanded="false" />
-            <element signature="e#3866#4098#0" expanded="false" />
-            <element signature="e#3897#4002#0" expanded="false" />
-            <element signature="e#4325#4401#0" expanded="false" />
-            <element signature="e#4447#4628#0" expanded="false" />
-            <element signature="e#4664#4699#0" expanded="false" />
-            <element signature="e#4747#5096#0" expanded="false" />
-            <element signature="e#5168#5286#0" expanded="false" />
-            <element signature="e#5336#5456#0" expanded="false" />
-            <element signature="e#5498#5733#0" expanded="false" />
-            <element signature="e#5773#6342#0" expanded="false" />
-            <element signature="e#6403#6793#0" expanded="false" />
-            <element signature="e#6836#6926#0" expanded="false" />
-            <element signature="e#6960#7083#0" expanded="false" />
-            <element signature="e#7116#7124#0" expanded="false" />
-            <element signature="e#7157#7214#0" expanded="false" />
-            <element signature="e#8277#8356#0" expanded="false" />
-            <element signature="e#8402#10297#0" expanded="false" />
+            <element signature="e#788#892#0" expanded="false" />
+            <element signature="e#3759#3893#0" expanded="false" />
+            <element signature="e#3928#4054#0" expanded="false" />
+            <element signature="e#4003#4046#0" expanded="false" />
+            <element signature="e#4093#4287#0" expanded="false" />
+            <element signature="e#4356#4588#0" expanded="false" />
+            <element signature="e#4387#4492#0" expanded="false" />
+            <element signature="e#4619#4775#0" expanded="false" />
+            <element signature="e#4815#4891#0" expanded="false" />
+            <element signature="e#4937#5118#0" expanded="false" />
+            <element signature="e#5154#5189#0" expanded="false" />
+            <element signature="e#5237#5586#0" expanded="false" />
+            <element signature="e#5658#5776#0" expanded="false" />
+            <element signature="e#5826#5946#0" expanded="false" />
+            <element signature="e#5988#6223#0" expanded="false" />
+            <element signature="e#6924#7314#0" expanded="false" />
+            <element signature="e#7357#7447#0" expanded="false" />
+            <element signature="e#7481#7604#0" expanded="false" />
+            <element signature="e#7637#7645#0" expanded="false" />
+            <element signature="e#7678#7735#0" expanded="false" />
+            <element signature="e#7791#8472#0" expanded="false" />
+            <element signature="e#8510#8745#0" expanded="false" />
+            <element signature="e#8794#8873#0" expanded="false" />
+            <element signature="e#8919#10814#0" expanded="false" />
+            <element signature="e#10864#11268#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,16 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularPrakt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/creditcardcheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -836,21 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="144" column="52" lean-forward="false" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
-          <folding>
-            <marker date="1485780372620" expanded="true" signature="6565:7141" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6774:7130" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6791:7115" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6862:7063" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="6952:7041" ph="..." />
-            <marker date="1485780372620" expanded="true" signature="7176:7386" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sql_query_search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -869,59 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopingCart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="101" lean-forward="false" selection-start-line="36" selection-start-column="101" selection-end-line="36" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ewa_angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="272" column="13" lean-forward="true" selection-start-line="272" selection-start-column="13" selection-end-line="272" selection-end-column="13" />
-          <folding>
-            <element signature="e#194#301#0" expanded="false" />
-            <element signature="e#342#442#0" expanded="false" />
-            <element signature="e#486#590#0" expanded="false" />
-            <element signature="e#637#743#0" expanded="false" />
-            <element signature="e#2013#3232#0" expanded="false" />
-            <element signature="e#3268#3402#0" expanded="false" />
-            <element signature="e#3437#3563#0" expanded="false" />
-            <element signature="e#3512#3555#0" expanded="false" />
-            <element signature="e#3602#3796#0" expanded="false" />
-            <element signature="e#3866#4098#0" expanded="false" />
-            <element signature="e#3897#4002#0" expanded="false" />
-            <element signature="e#4325#4401#0" expanded="false" />
-            <element signature="e#4447#4628#0" expanded="false" />
-            <element signature="e#4664#4699#0" expanded="false" />
-            <element signature="e#4747#5096#0" expanded="false" />
-            <element signature="e#5168#5286#0" expanded="false" />
-            <element signature="e#5336#5456#0" expanded="false" />
-            <element signature="e#5498#5733#0" expanded="false" />
-            <element signature="e#5773#6342#0" expanded="false" />
-            <element signature="e#6403#6793#0" expanded="false" />
-            <element signature="e#6836#6926#0" expanded="false" />
-            <element signature="e#6960#7083#0" expanded="false" />
-            <element signature="e#7116#7124#0" expanded="false" />
-            <element signature="e#7157#7214#0" expanded="false" />
-            <element signature="e#8277#8356#0" expanded="false" />
-            <element signature="e#8402#10297#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soa_client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -932,13 +851,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/sql_query_search_live.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <marker date="1485515916209" expanded="true" signature="300:340" ph="SELECT * FRO... buecher" />
             <marker date="1485515916209" expanded="true" signature="300:345" ph="SELECT * FRO... buecher" />
             <marker date="1485515916209" expanded="true" signature="300:346" ph="SELECT * FRO... buecher" />
             <marker date="1485515916209" expanded="true" signature="300:356" ph="SELECT * FRO... buecher" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularPrakt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1485806125941" expanded="true" signature="6577:7153" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6786:7142" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6803:7127" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6874:7075" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="6964:7053" ph="..." />
+            <marker date="1485806125941" expanded="true" signature="7188:7451" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ewa_angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="361" column="46" lean-forward="false" selection-start-line="361" selection-start-column="46" selection-end-line="361" selection-end-column="46" />
+          <folding>
+            <element signature="e#194#301#0" expanded="false" />
+            <element signature="e#342#442#0" expanded="false" />
+            <element signature="e#486#590#0" expanded="false" />
+            <element signature="e#788#892#0" expanded="false" />
+            <element signature="e#3759#3893#0" expanded="false" />
+            <element signature="e#3928#4054#0" expanded="false" />
+            <element signature="e#4003#4046#0" expanded="false" />
+            <element signature="e#4093#4287#0" expanded="false" />
+            <element signature="e#4356#4588#0" expanded="false" />
+            <element signature="e#4387#4492#0" expanded="false" />
+            <element signature="e#4619#4775#0" expanded="false" />
+            <element signature="e#4815#4891#0" expanded="false" />
+            <element signature="e#4937#5118#0" expanded="false" />
+            <element signature="e#5154#5189#0" expanded="false" />
+            <element signature="e#5237#5586#0" expanded="false" />
+            <element signature="e#5658#5776#0" expanded="false" />
+            <element signature="e#5826#5946#0" expanded="false" />
+            <element signature="e#5988#6223#0" expanded="false" />
+            <element signature="e#6924#7314#0" expanded="false" />
+            <element signature="e#7357#7447#0" expanded="false" />
+            <element signature="e#7481#7604#0" expanded="false" />
+            <element signature="e#7637#7645#0" expanded="false" />
+            <element signature="e#7678#7735#0" expanded="false" />
+            <element signature="e#7791#8472#0" expanded="false" />
+            <element signature="e#8510#8745#0" expanded="false" />
+            <element signature="e#8794#8873#0" expanded="false" />
+            <element signature="e#8919#10814#0" expanded="false" />
+            <element signature="e#10864#11268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopingCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
