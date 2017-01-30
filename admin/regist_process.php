@@ -31,7 +31,7 @@
                 echo 'Benutzername schon vorhanden!';  
             } 
             else {
-                $regist = "INSERT INTO user (Username, Userpwmd5, UserAnrede, UserAdresse, UserPLZ, UserCountry, UserOrt) VALUES ('$user', '$password', '$anrede', '$address', '$plz', '$country', '$ort')";
+                $regist = "INSERT INTO user (Username, Userpwmd5, UserAnrede, UserAdresse, UserPLZ, UserCountry, UserOrt) VALUES ('$user', '$password', '$anrede', '$strasse', '$plz', '$country', '$ort')";
                 $eintragen = mysqli_query($db_con,$regist);
                 if($eintragen == true)
                     {
