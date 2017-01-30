@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Buecher SYSTEM "buecher.dtd">
+<?xml-stylesheet type="text/xsl" href="buecher.xsl"?>
+
+    <Produktkatalog>
+        <Produkt ProduktID="0">
+            <Allgemein>
+                <Produktcode>7894</Produktcode>
+                <Produkttitel>Java Kochbuch</Produkttitel>
+                <Lagerbestand>684</Lagerbestand>
+                <Gewicht>2000</Gewicht>
+            </Allgemein>
+            <Autor AutorID="6432">
+                <Autorname>Ian F. Darwin</Autorname>
+            </Autor>
+            <Verlag VerlagsID="9783897212831">
+                <Verlagsname>O´Reilly</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>34.57</PreisNetto>
+                <PreisBrutto>36.99</PreisBrutto>
+            </Preisdaten>            
+        </Produkt>
+        
+        <Produkt ProduktID="1">
+            <Allgemein>
+                <Produktcode>3517</Produktcode>
+                <Produkttitel>PHP Kochbuch</Produkttitel>
+                <Lagerbestand>200</Lagerbestand>
+                <Gewicht>1500</Gewicht>
+            </Allgemein>
+            <Autor AutorID="5673">
+                <Autorname>David Sklar / Adam Trachtenberg / Carsten Lucke / Matthias Brusdeylins / Ulrich Speidel / Stephan Schmidt</Autorname>
+            </Autor>
+            <Verlag VerlagsID="33868996281">
+                <Verlagsname>Hansen und Co.</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>24.29</PreisNetto>
+                <PreisBrutto>25.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="2">
+            <Allgemein>
+                <Produktcode>78542</Produktcode>
+                <Produkttitel>Java 8 Lambdas</Produkttitel>
+                <Lagerbestand>239</Lagerbestand>
+                <Gewicht>308</Gewicht>
+            </Allgemein>
+            <Autor AutorID="5367">
+                <Autorname>Richard Warburton</Autorname>
+            </Autor>
+            <Verlag VerlagsID="1449370772">
+                <Verlagsname>O'Reilly</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>31.77</PreisNetto>
+                <PreisBrutto>33.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="3">
+            <Allgemein>
+                <Produktcode>456</Produktcode>
+                <Produkttitel>PHP Referenz</Produkttitel>
+                <Lagerbestand>64</Lagerbestand>
+                <Gewicht>2000</Gewicht>
+            </Allgemein>
+            <Autor AutorID="4673">
+                <Autorname>Jens Ferner</Autorname>
+            </Autor>
+            <Verlag VerlagsID="3815816661">
+                <Verlagsname>Data Becker</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>17.75</PreisNetto>
+                <PreisBrutto>18.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="5">
+            <Allgemein>
+                <Produktcode>634829469</Produktcode>
+                <Produkttitel>TYPO3 Kochbuch</Produkttitel>
+                <Lagerbestand>250</Lagerbestand>
+                <Gewicht>1000</Gewicht>
+            </Allgemein>
+            <Autor AutorID="54">
+                <Autorname>Christian Trabold / Jo Hasenau / Peter Niederlag</Autorname>
+            </Autor>
+            <Verlag VerlagsID="9783897218512">
+                <Verlagsname>O´Reilly</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>46.72</PreisNetto>
+                <PreisBrutto>49.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="6">
+            <Allgemein>
+                <Produktcode>342168</Produktcode>
+                <Produkttitel>Perl - kurz und gut</Produkttitel>
+                <Lagerbestand>1004</Lagerbestand>
+                <Gewicht>560</Gewicht>
+            </Allgemein>
+            <Autor AutorID="53672">
+                <Autorname>Johan Vromans</Autorname>
+            </Autor>
+            <Verlag VerlagsID="9783868991871">
+                <Verlagsname>O´Reilly</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>8.40</PreisNetto>
+                <PreisBrutto>8.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="7">
+            <Allgemein>
+                <Produktcode>34869745</Produktcode>
+                <Produkttitel>AngularJS</Produkttitel>
+                <Lagerbestand>638</Lagerbestand>
+                <Gewicht>380</Gewicht>
+            </Allgemein>
+            <Autor AutorID="6824">
+                <Autorname>Philipp Tarasiewicz / Robin Böhm</Autorname>
+            </Autor>
+            <Verlag VerlagsID="9783864901546">
+                <Verlagsname>dpunkt.verlag</Verlagsname>
+            </Verlag>
+            <Preisdaten MWstsatz="7">
+                <PreisNetto>30.83</PreisNetto>
+                <PreisBrutto>32.99</PreisBrutto>
+            </Preisdaten>
+        </Produkt>
+        
+        <Produkt ProduktID="8">
+            <Allgemein>
+                <Produktcode>49375</Produktcode>
+                <Produkttitel>Node.js und Co.</Produkttitel>
+                <Lagerbestand>628</Lagerbestand>
+                <Gewicht>350</Gewicht>
+            </Allgemein>
+            <Autor AutorID="763057">
+                <Autorname>Golo Roden</Autorname>
+            </Autor>
+            <Verlag VerlagsID="9783864901324">
+                <Verlagsname>dpunkt.verlag</Verlagsname>
+            </Verlag>
+            <Preisdaten  MWstsatz="7">
+                <PreisNetto>30.83</PreisNetto>
+                <PreisPreisBrutto>32.99</PreisPreisBrutto>
+            </Preisdaten>
+        </Produkt>
+    </Produktkatalog>

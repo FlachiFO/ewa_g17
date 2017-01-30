@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Produktkatalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Produkt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Allgemein">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Produktcode" type="xs:unsignedByte" />
+                    <xs:element name="Produkttitel" type="xs:string" />
+                    <xs:element name="Gewicht" type="xs:unsignedByte" />
+                    <xs:element name="Lagerbestand" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Autor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Autorname" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="AutorID" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Verlag">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Verlagsname" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="VerlagsID" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Preisdaten">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="PreisNetto" type="xs:unsignedByte" />
+                    <xs:element name="PreisBrutto" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="MWstsatz" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="ProduktID" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

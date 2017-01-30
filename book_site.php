@@ -1,89 +1,56 @@
 <?php
 
 session_start();
-include_once './admin/db_config.php';
-include_once './admin/sql_query.php';
-$book = $_GET["index"];
 
 ?>
-<!DOCTYPE html>
+    <main class="container main_content well" ng-repeat="y in singleBook">
 
-<html lang="de">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EWA-Shop</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<!--    <script src="js/function.js"></script>-->
-
-    
-</head>
-<body>
-    <!------------------------------------------------------------------------------------------------------------------------------>
-    <header class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <center>
-                <div class="navbar-collapse collapse" id="navbar-main">
-                    <ul class="nav navbar-nav">
-                        <li><a href="." data-ajax="false">Home</a> </li>
-                        <li><a href="#">Contact us</a> </li>
-                    </ul>
-                    <form class="navbar-form navbar-left search-form" role="search">
-                        <input type="text" class="form-control" placeholder="Search" /> </form>
-                    <?php if (isset($_SESSION['user_session_id'])!="") { ?>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> &nbsp;Hi
-                                    <?php echo $_SESSION['user_session_name']; ?>&nbsp; <span class="caret"></span> </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="user_site.php"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
-                                    <li><a href="./admin/logout_process.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    <?php } elseif(!isset($_SESSION['user_session_id'])) { ?>
-                        <form class="navbar-form navbar-right form-sigin" action="../login_regist_site.php">
-                            <button class="btn btn-default" type="submit" value="Login / Registrierung">Login / Registrierung</button>
-                        </form>
-                    <?php } ?>
-                </div>
-            </center>
-        </div>
-    </header>
-    <!------------------------------------------------------------------------------------------------------------------------------>
-    <main class="container main_content well">
-        <?php 
-                for ($i = 0; $i < count($row2); $i++) {
-                    if ($row2[$i]["ProduktID"] == $book) {
-        ?>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 book_site_img">
-            <img src="<?php echo $row2[$i]["LinkGrafikdatei"]; ?>">        
+            <img ng-src="{{y.LinkGrafikdatei}}">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 book_site_main">
-            <H3><?php echo $row2[$i]["Produkttitel"]; ?></H3>
+            <H3 ng-bind="y.Produkttitel"></H3>
             <ul>
-                <li><b>Autorname: </b><?php echo $row2[$i]["Autorname"]; ?></li>
-                <li><b>Verlagsname: </b><?php echo $row2[$i]["Verlagsname"]; ?></li>
-                <li>ISBN-Nr.: <?php echo $row2[$i]["VerlagsID"]; ?></li>
-                <li>Preis: <?php echo $row2[$i]["PreisBrutto"]; ?>€</li>
+                <b>Autorname:</b><li ng-bind="y.Autorname"></li>
+                <b>Verlagsname:</b><li ng-bind="y.Verlagsname"></li>
+                <b>ISBN-Nr.:</b><li ng-bind="y.VerlagsID"></li>
+                <b>Preis:</b><li ng-bind="y.PreisBrutto + '€'"></li>
+
+                <p></p>
+                <?php if(isset($_SESSION['user_session_id'])!=""){ ?>
+                <li>
+                    <div class="input-group">
+
+                          <button type="button" class="btn btn-danger btn-number" style="float: left" data-type="minus" ng-click="buecherAnzahlMinus(anzahlBuch)">
+                            <span class="glyphicon glyphicon-minus"></span>
+                          </button>
+
+                        <input type="text" class="form-control" ng-value="anzahlBuch" min="1" max="100" style="width: 20%;float: left">
+
+                          <button type="button" class="btn btn-success btn-number" style="float: left" data-type="plus" ng-click="buecherAnzahlPlus(anzahlBuch)">
+                              <span class="glyphicon glyphicon-plus"></span>
+                          </button>
+
+                    </div>
+                </li>
+                <p></p>
+                <button class="btn btn-primary btn-s" ng-click="addToSC(anzahlBuch);switchTo('start')">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> In den Warenkorb
+                </button>
+                <?php } ?>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 book_site_text">
             <H5>Kurzbeschreibung</H5><br>
             <article>
-                <?php echo $row2[$i]["Kurzinhalt"] ?>
+                <div class="well" style="background-color: #dff0d8">
+                    <div show-more>
+                        {{ y.Kurzinhalt }}
+                    </div>
+<!--                    <p ng-text-truncate="y.Kurzinhalt"-->
+<!--                       ng-tt-chars-threshold="40"></p>-->
+<!--                    <span ng-bind="y.Kurzinhalt"></span>-->
+                </div>
             </article>
         </div>
-        <?php }} ?>
     </main>
-</body>
-</html>

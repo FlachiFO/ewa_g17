@@ -1,0 +1,28 @@
+<!ELEMENT Produktkatalog (Buch+)>
+
+<!ELEMENT Produkt (Allgemein, Autor, Verlag, Preisdaten)>
+
+<!ATTLIST Buch
+	ProduktID CDATA #REQUIRED>
+
+<!ELEMENT Allgemein (ProduktCode, ProduktTitel, Gewicht, Lagerbestand)>
+<!ELEMENT Produkttitel (#PCDATA)>
+<!ELEMENT Produktcode (#PCDATA)>
+<!ELEMENT Gewicht (#PCDATA)>
+<!ELEMENT Lagerbestand (#PCDATA)>
+
+<!ELEMENT Autor (AutorName)>
+<!ELEMENT Autorname (#PCDATA)>
+<!ATTLIST Autor
+	AutorID CDATA #REQUIRED>
+
+<!ELEMENT Verlag (Verlagsname)>
+<!ELEMENT Verlagsname (#PCDATA)>
+<!ATTLIST Verlag
+	VerlagsID CDATA #REQUIRED>
+
+<!ELEMENT Preisdaten (PreisNetto, PreisBrutto)>
+<!ELEMENT PreisNetto (#PCDATA)>
+<!ELEMENT PreisBrutto (#PCDATA)>
+<!ATTLIST Preisdaten
+	MWstsatz (0 | 7 | 19) "7">

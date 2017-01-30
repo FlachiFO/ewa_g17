@@ -35,7 +35,7 @@ $('document').ready(function () {
                 if (response == "ok") {
                     $("#btn-login").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
                     //						setTimeout(' window.location.href = "./home.php"; ',4000);
-                    window.location.href = "./home.php";
+                    window.location.href = "./index.php";
                 }
                 else {
                     $("#error").fadeIn(1000, function () {
@@ -82,7 +82,7 @@ $('document').ready(function () {
                 if (response == "ok") {
                     //                    $("#btn-regist").html('<img class="load_img" src="./img/btn-ajax-loader.gif" /> &nbsp; Signing In ...');
                     $("#error2").html('<div class="alert alert-success"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Registrierung erfolgreich!</div>');
-                    setTimeout(' window.location.href = "./home.php"; ', 4000);
+                    setTimeout(' window.location.href = "./index.php"; ', 4000);
                     //                    window.location.href = "./home.php";
                 }
                 else {
@@ -104,7 +104,7 @@ function del_user_alert() {
     del_user();
 };
 function del_user() {
-    $.ajax({url: "./admin/delete_user.php"}).done(function () {window.location.href = "./home.php";});
+    $.ajax({url: "./admin/delete_user.php"}).done(function () {window.location.href = "./index.php";});
 };
 
 

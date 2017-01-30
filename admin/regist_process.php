@@ -7,7 +7,10 @@
 		$user = trim($_POST['user']);
 		$user_password = trim($_POST['password']);
         $user_confirm_password = trim($_POST['confirm_password']);
-        $address = trim($_POST['address']);
+        $strasse = trim($_POST['strasse']);
+        $country = trim($_POST['country']);
+        $plz = trim($_POST['plz']);
+        $ort = trim($_POST['ort']);
         $anrede = trim($_POST['anrede']);
 	
 		$password = md5($user_password);
@@ -15,7 +18,7 @@
         
         if($user_password == $user_confirm_password) {
         
-            if($user == "" OR $user_password == "" OR $user_confirm_password == "" OR $address == "" OR $anrede == "")
+            if($user == "" OR $user_password == "" OR $user_confirm_password == "" OR $strasse == "" OR $anrede == "" OR $country == "" OR $plz == "" OR $ort == "")
             {
                 echo "Eingabefehler. Bitte alle Felder ausfüllen!";
                 exit;
@@ -28,11 +31,11 @@
                 echo 'Benutzername schon vorhanden!';  
             } 
             else {
-                $regist = "INSERT INTO user (Username, Userpwmd5, UserAnrede, UserAdresse) VALUES ('$user', '$password', '$anrede', '$address')";
+                $regist = "INSERT INTO user (Username, Userpwmd5, UserAnrede, UserAdresse, UserPLZ, UserCountry, UserOrt) VALUES ('$user', '$password', '$anrede', '$address', '$plz', '$country', '$ort')";
                 $eintragen = mysqli_query($db_con,$regist);
                 if($eintragen == true)
                     {
-                        $sql="SELECT UserID, Username, UserAnrede, Useradresse FROM user WHERE Username='$user' AND Userpwmd5='$password'";
+                        $sql="SELECT UserID, Username, UserAnrede, Useradresse, UserPLZ, UserCountry, UserOrt FROM user WHERE Username='$user' AND Userpwmd5='$password'";
                         $result = mysqli_query($db_con,$sql);
 
                         $row = mysqli_fetch_row($result);
@@ -46,6 +49,9 @@
                             $_SESSION['user_session_name']=$row[1];
                             $_SESSION['user_session_anrede']=$row[2];
                             $_SESSION['user_session_address']=$row[3];
+                            $_SESSION['user_session_plz']=$row[4];
+                            $_SESSION['user_session_ort']=$row[5];
+                            $_SESSION['user_session_country']=$row[6];
                             echo "ok"; // log in
 
                         }

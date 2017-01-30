@@ -184,17 +184,28 @@
                                         <div class="form-group">
                                             <input type="text" name="anrede" id="anrede" tabindex="1" class="form-control" placeholder="Anrede" value=""> </div>
                                         <div class="form-group">
-                                            <input type="text" name="user" id="user" tabindex="1" class="form-control" placeholder="Username" value=""> </div>
+                                            <input type="text" name="user" id="user" tabindex="2" class="form-control" placeholder="Username" value=""> </div>
                                         <div class="form-group">
-                                            <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password"> </div>
+                                            <input type="password" name="password" id="password" tabindex="3" class="form-control" placeholder="Password"> </div>
                                         <div class="form-group">
-                                            <input type="password" name="confirm_password" id="confirm_password" tabindex="2" class="form-control" placeholder="Confirm Password"> </div>
+                                            <input type="password" name="confirm_password" id="confirm_password" tabindex="4" class="form-control" placeholder="Confirm Password"> </div>
                                         <div class="form-group">
-                                            <input type="text" name="address" id="address" tabindex="3" class="form-control" placeholder="Addresse" value=""> </div>
+                                            <select name="country" id="country" class="form-control" tabindex="5">
+                                                <option value="0">Deutschland</option>
+                                                <option value="1">andere</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="strasse" id="strasse" tabindex="6" class="form-control" placeholder="Straße" value=""> </div>
+                                        <div class="form-group">
+                                            <input type="number"  tabindex="7" name="plz" id="plz" min="10000" max="99999" placeholder="PLZ" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="ort" id="ort" tabindex="8" class="form-control" placeholder="Ort" value=""> </div>
                                         <div class="form-group">
                                             <div class="row">
                                                 <div class="col-sm-6 col-sm-offset-3">
-                                                    <input type="submit" name="btn-regist" id="btn-regist" tabindex="4" class="form-control btn btn-register" value="Register Now"> </div>
+                                                    <input type="submit" name="btn-regist" id="btn-regist" tabindex="9" class="form-control btn btn-register" value="Register Now"> </div>
                                             </div>
                                         </div>
                                         <div id="error2"></div>

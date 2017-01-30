@@ -2,10 +2,7 @@
 session_start();
 include_once './admin/db_config.php';
 include_once './admin/sql_query.php';
-if(!isset($_SESSION['user_session_id']))
-{
-	header("Location: index.php");
-}
+
 
 
 
