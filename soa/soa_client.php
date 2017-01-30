@@ -35,7 +35,7 @@
 	$client->decode_utf8 = false;
         
         for ($i; $i <$length; $i++) {
-            $boosks = array("ISBN" => $array_decode[$i]->ISBN, "Quantity" => $array_decode[$i]->Quantity);
+            $books = array("ISBN" => $array_decode[$i]->ISBN, "Quantity" => $array_decode[$i]->Quantity);
         }
         print_r($books);
 	

@@ -1,0 +1,8 @@
+#11.01.2017 09:27:59  [Info]  Endpoint <Input-FlatFileEP> processing input file: FlatFile_Sample1.csv
+#11.01.2017 09:27:59  [Info]  Endpoint <Input-FlatFileEP> receiving oneway message - ID: baa92fec-c021-4bbb-8a8f-613ef5f65e8e, Content: DataTable (File Message)
+#11.01.2017 09:28:00  [Info]  Endpoint <Output-FlatFileEP> sending oneway message - ID: baa92fec-c021-4bbb-8a8f-613ef5f65e8e, Content: DataTable (File Message)
+#27.01.2017 16:43:01  [Info]  Endpoint <Input-FlatFileEP> processing input file: FlatFile_Sample1.csv
+#28.01.2017 19:23:53  [Info]  Endpoint <Shop-AcceptedOrder> receiving request message - ID: 5661ecac-6ab7-4665-853f-ffc33fdf19e1, Content: Xml (Http Message)
+#28.01.2017 19:23:53  [Info]  Endpoint <Reseller-WS2> sending request message - ID: 5661ecac-6ab7-4665-853f-ffc33fdf19e1, Content: Xml (Http Message)
+#28.01.2017 19:23:54  [Info]  Endpoint <Reseller-WS2> receiving response message - ID: 82f191a5-ea98-4c1c-b59a-bbdee78ccacd, Content: Xml (Http Message)
+#28.01.2017 19:23:54  [Info]  Endpoint <Shop-AcceptedOrder> sending response message - ID: 82f191a5-ea98-4c1c-b59a-bbdee78ccacd, Content: Xml (Http Message)

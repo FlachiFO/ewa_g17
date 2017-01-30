@@ -281,7 +281,7 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
         //     };
         // };
         // var SOAdata = [$scope.SCCTotal;]
-        $http.get("./soa_client.php",  {
+        $http.get("./soa/soa_client.php",  {
             params: {
                 SOAArray: JSON.stringify($scope.finalSCContent),
                 SOATotal: SOATotal}}).success(function(data) {

@@ -1,0 +1,90 @@
+#10.01.2017 20:02:43  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#10.01.2017 20:02:43  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#10.01.2017 20:02:43  [Info]  Service <SimpleFlatFileMapping> registered
+#10.01.2017 20:02:43  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#10.01.2017 20:02:43  [Info]  Service <SimplePassThroughMessaging> registered
+#10.01.2017 20:02:43  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#10.01.2017 20:02:43  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#10.01.2017 21:21:49  [Info]  Service Bus <G17> stopped
+#10.01.2017 21:21:49  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:21:49  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:22:15  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#10.01.2017 21:22:15  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#10.01.2017 21:22:15  [Info]  Service <SimpleFlatFileMapping> registered
+#10.01.2017 21:22:15  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#10.01.2017 21:22:15  [Info]  Service <SimplePassThroughMessaging> registered
+#10.01.2017 21:22:15  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#10.01.2017 21:22:15  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#10.01.2017 21:24:15  [Info]  Service Bus <G17> stopped
+#10.01.2017 21:24:15  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:24:15  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:25:05  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#10.01.2017 21:25:05  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#10.01.2017 21:25:05  [Info]  Service <SimpleFlatFileMapping> registered
+#10.01.2017 21:25:05  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#10.01.2017 21:25:05  [Info]  Service <SimplePassThroughMessaging> registered
+#10.01.2017 21:25:05  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#10.01.2017 21:25:05  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#10.01.2017 21:30:01  [Info]  Service Bus <G17> stopped
+#10.01.2017 21:30:01  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:30:01  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:30:24  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#10.01.2017 21:30:24  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#10.01.2017 21:30:24  [Info]  Service <SimpleFlatFileMapping> registered
+#10.01.2017 21:30:24  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#10.01.2017 21:30:24  [Info]  Service <SimplePassThroughMessaging> registered
+#10.01.2017 21:30:24  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#10.01.2017 21:30:24  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#10.01.2017 21:36:55  [Info]  Service Bus <G17> stopped
+#10.01.2017 21:36:55  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:36:55  [Info]  Service Bus <G17> Instance Web Service stopped
+#10.01.2017 21:37:13  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#10.01.2017 21:37:13  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#10.01.2017 21:37:13  [Info]  Service <SimpleFlatFileMapping> registered
+#10.01.2017 21:37:13  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#10.01.2017 21:37:13  [Info]  Service <SimplePassThroughMessaging> registered
+#10.01.2017 21:37:13  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#10.01.2017 21:37:13  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#11.01.2017 07:48:46  [Info]  Service Bus <G17> stopped
+#11.01.2017 07:48:46  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 07:48:46  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 07:50:51  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#11.01.2017 07:50:51  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#11.01.2017 07:50:51  [Info]  Service <SimpleFlatFileMapping> registered
+#11.01.2017 07:50:51  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#11.01.2017 07:50:51  [Info]  Service <SimplePassThroughMessaging> registered
+#11.01.2017 07:50:51  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#11.01.2017 07:50:51  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#11.01.2017 07:59:08  [Info]  Service Bus <G17> stopped
+#11.01.2017 07:59:08  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 07:59:08  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 07:59:10  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#11.01.2017 07:59:11  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#11.01.2017 07:59:11  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#11.01.2017 09:24:39  [Info]  Service Bus <G17> stopped
+#11.01.2017 09:24:39  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 09:24:39  [Info]  Service Bus <G17> Instance Web Service stopped
+#11.01.2017 09:25:05  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#11.01.2017 09:25:05  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#11.01.2017 09:25:05  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#23.01.2017 08:46:35  [Info]  Service Bus <G17> stopped
+#23.01.2017 08:46:35  [Info]  Service Bus <G17> Instance Web Service stopped
+#23.01.2017 08:46:35  [Info]  Service Bus <G17> Instance Web Service stopped
+#23.01.2017 08:47:14  [Info]  SOAlution v1.2.0.0: Service Bus <G17> starting
+#23.01.2017 08:47:14  [Info]  Loading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#23.01.2017 08:47:14  [Info]  Service <SimpleFlatFileMapping> registered
+#23.01.2017 08:47:14  [Info]  Loading script file <SOAlution_SimplePassThroughMessaging_Script.ini>
+#23.01.2017 08:47:14  [Info]  Service <SimplePassThroughMessaging> registered
+#23.01.2017 08:47:14  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/ started
+#23.01.2017 08:47:14  [Info]  Service Bus <G17> Instance Web Service at http://141.56.131.108:8080/System/Instance/G17/Control/ started
+#27.01.2017 16:41:50  [Info]  Loading script file <SOAlution_BookTrade-AcceptedOrder_Script.ini>
+#27.01.2017 16:41:50  [Info]  Service <BookTrade-AcceptedOrder> registered
+#27.01.2017 16:41:50  [Info]  Loading script file <SOAlution_BookTrade-NewOrder_Script.ini>
+#27.01.2017 16:41:50  [Info]  Service <BookTrade-NewOrder> registered
+#27.01.2017 16:41:50  [Info]  Reloading script file <SOAlution_SimpleFlatFileMapping_Script.ini>
+#27.01.2017 16:41:50  [Info]  Service <SimpleFlatFileMapping> unregistered
+#27.01.2017 16:41:50  [Info]  Service <SimpleFlatFileMapping> registered
+#27.01.2017 22:35:29  [Info]  Service <SimpleFlatFileMapping> unregistered
+#27.01.2017 22:35:40  [Info]  Service <SimpleFlatFileMapping> registered
+#27.01.2017 22:35:46  [Info]  Service <BookTrade-NewOrder> unregistered
+#27.01.2017 22:35:48  [Info]  Service <BookTrade-NewOrder> registered
