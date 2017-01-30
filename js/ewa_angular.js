@@ -288,6 +288,7 @@ myApp.controller('myController',function($scope, $timeout, $http, $localStorage)
             $scope.SOAresult = data;
         });
         //
+        $scope.SCCTotal = 0;
         $scope.shopingCartContent = [];
         $scope.finalSCContent = null;
         $localStorage.cookieSC = null;

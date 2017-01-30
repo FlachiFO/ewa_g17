@@ -3,7 +3,7 @@
 session_start();
 
 ?>
-    <main class="container main_content well" ng-repeat="y in singleBook">
+    <main class="container main_content well" ng-repeat="y in singleBook track by $index">
 
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 book_site_img">
             <img ng-src="{{y.LinkGrafikdatei}}">

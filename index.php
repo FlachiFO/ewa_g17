@@ -143,7 +143,7 @@ include_once './admin/sql_query.php';
     </body>
 
 <!--    </body>-->
-        <footer style="background: #aaa;color:white; right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center; position: absolute">Benjamin Flache & Paul Bruntsch</footer>
+        <footer style="background: #aaa;color:white; right: 0;  bottom: 0;  left: 0;  padding: 1rem;  text-align: center; position: relative">Benjamin Flache & Paul Bruntsch</footer>
 <!--    </section>-->
 
 

@@ -89,7 +89,7 @@ session_start();
                         <input type="submit" value="Submit" />
                     </form>
                 </div>
-                <button class="btn btn-primary btn-s" style="float: right" ng-click="invoice()">Bezahlen</button>
+                <button class="btn btn-primary btn-s" style="float: right" ng-click="invoice()" data-dismiss="modal">Bezahlen</button>
             </div>
         </div>
     </div>
